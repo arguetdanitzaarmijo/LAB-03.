@@ -7,7 +7,7 @@ import { Button } from './components/Button';
     const buttonText ="count :";
     return (
     <>
-        <h1> Contador incrementa de 5 en 5 </h1>
+        <h1> Numero Aleatorio</h1>
         <Button text= {buttonText}/>
     </>
     );
