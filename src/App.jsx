@@ -1,16 +1,16 @@
-
 import './App.css';
-import { WapperList } from './components/WrapperList';
-import { Button } from './components/Button';
-import RandomComponent from './components/RamdomComponent';
+import { Button } from './component/Button';
+import CompWithProps from './component/CompWithProps';
 
-function App ( ) {
-
+function App ( ){
+  
+  const buttonText ="count :";
   return (
     <>
-        <h1> Hola desde vite</h1>
-        <RandomComponent text= {Button}/>
+        <h1> HOLA DESDE VITE  </h1>
+        <Button text= {buttonText}/>
+          <CompWithProps />
     </>
     );
   }
-export default App;
+  export default App;
